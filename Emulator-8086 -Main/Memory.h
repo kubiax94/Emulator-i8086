@@ -7,7 +7,7 @@ using namespace emu_datatype;
 namespace i8086 {
 	struct MEMORY {
 	private:
-		std::map<adress, Byte> _memory;
+		std::map<adress, Word> _memory;
 
 
 	public:
